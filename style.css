@@ -1,0 +1,120 @@
+html {
+    height: 100%;
+}
+ 
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+/** .image {
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 0;
+    */
+
+.background {
+    background-color:#E6E6FA;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    height: 5600px;
+    margin-top: 60px;
+    margin-bottom: none;
+    z-index: 0;
+}
+.boxed2 {
+    background-color: darkblue;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    margin-bottom: 1px;
+
+}
+.boxed {
+    width: 50%;
+    height: 5600px;
+    background-color: white;
+    position: relative;
+    background-position: center center;
+    margin: 0px auto auto auto;
+    margin-bottom: 0px;
+    
+}
+.boxed3 {
+    background-color: #E6E6FA;
+    width: 20rem;
+    height: 40rem;
+    position: relative;
+    border-top: black;
+    border-style: dashed;
+    margin-top: 300px;
+    margin-left: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.boxed4 {
+    background-color: #E6E6FA;
+    width: 20rem;
+    height: 40rem;
+    position: relative;
+    border-top: black;
+    border-style: dashed;
+    margin-top: 300px;
+    margin-left: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+p {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    word-break: break-word;
+}
+
+.image2 {
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+}
+h6 {
+    line-height: 2;
+    font-size: 10px;
+    font-weight: 300;
+}
+.font {
+    font-size: 40px;
+    font-weight: 800;
+}
+.a1 {
+    display:inline-block;
+    border:1px solid #73AD21;
+    background-color:#73AD21;
+    padding:10px 12px;
+    box-shadow:2px 2px 5px #6c6969;
+    text-decoration:none;
+    border-radius:3px;
+    color:white;
+}
+a1:hover{
+        border:1px solid #90d331;
+        background-color:steelblue;
+    }
+a1:active{
+        border:1px solid #669f15;
+        background-color:steelblue;
+    }
+
